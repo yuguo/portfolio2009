@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>@Yuguo - 余果的作品展示</title>
+
+<link href="styles/reset.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="styles/color.css" rel="stylesheet" type="text/css" media="screen" />
+
+<!--[if lt IE 7]>
+<style type="text/css">
+
+  .image span { behavior: url(iepngfix.htc); }
+
+</style>
+<![endif]-->
+
+
+
+
+</head>
+<body>
+
+<div id="wrapper">
+	<div class="bottom-round" id="nav">
+		<ul class="float-fix">
+			<li><a href="http://yuguo.us">首页</a></li>
+			<li><a href="http://yuguo.us/weblog">博客</a></li>
+			<li><a class="current" href="http://yuguo.us/portfolio">展示</a></li>
+			<li><a href="http://yuguo.us/demo">Demo</a></li>
+		</ul>
+	</div>
+	
+	<div id="headerimg">
+		<h1><a href="http://yuguo.us">@Yuguo</a></h1>
+		<p>可访问性、易用性、兼容性——创建更好的Web。 </p>		
+	</div>
+	
+	
+	<div id="main">
+
+		<div class="work float-fix">
+			<h2>WP主题——By The Sea</h2>
+			<div class="desc">
+				<p class="data">2009/9</p>
+				<p>刚开学的时候给自己做的一个清新WP主题，很多地方都借鉴了豆瓣的设计，包括首页可以下拉通过Ajax显示全文。这也是我的主题中修改做多的一次，每次都征求了读者的意见。包括Ajax的时候是否显示评论，评论什么时候载入，是否应该支持首页回复。很宝贵的一次经验。</p>
+				<p class="site"><a href="http://yuguo.us/weblog/?preview_theme=By%20the%20Sea">Demo</a></p>
+			</div>
+			<div class="image-list">
+				<img src="images/Theme-by-the-sea-thumb.png" alt="YuguoDesign"/>
+			</div>
+		</div>
+		
+		<div class="work float-fix">
+			<h2>求职主题系列</h2>
+			<div class="desc">
+				<p class="data">2009/10</p>
+				<p>因为09年10月正值校园招聘高峰期，所以做了一组作品然后在网上投 简历。这组主题调用不同的js和css文件，同时共享一份相同的xhtml。无论是从美工还是代码来看都是非常粗糙的作品，但因为这个系列作品获得了ivane老师的推荐，十分庆幸。</p>
+				<p class="site"><a href="http://yuguo.us/job2009">http://yuguo.us/job2009</a></p>
+			</div>
+			<div class="image-list">
+				<img src="images/job09-1-thumb.png" alt="YuguoDesign"/>
+				<img src="images/job09-2-thumb.png" alt="YuguoDesign"/>
+				<img src="images/job09-3-thumb.png" alt="YuguoDesign"/>
+				<img src="images/job09-4-thumb.png" alt="YuguoDesign"/>
+				<img src="images/job09-5-thumb.png" alt="YuguoDesign"/>
+			</div>
+		</div>
+
+		<div class="work float-fix">
+			<h2>WP主题——Simple Yu</h2>
+			<div class="desc">
+				<p class="data">2009/11</p>
+				<p>这是11月份找到工作之后给博客做的一个重建，并且这次重建牵涉到主页、展示、推荐和Twitter，用了相似的风格。这个设计用了渐进增强的思想，对于IE6用户也是比较友好的。另外基本没有用图片，都是CSS属性——其中包含一些CSS3属性和只有FF、Chrome和Safari支持的CSS属性。</p>
+				<p>这个主题做得比较随性，因为没有什么考核的意思在里面，所以整体的考虑没有展示技术，只有展示可读性。</p>
+				<p class="site"><a href="http://yuguo.us/weblog/?preview_theme=Simple%20Yu">Demo</a></p>
+			</div>
+			<div class="image-list">
+				<img src="images/Theme-facebook-1.png" alt="YuguoDesign"/>
+				<img src="images/Theme-facebook-2.png" alt="YuguoDesign"/>
+				<img src="images/Theme-facebook-3.png" alt="YuguoDesign"/>
+			</div>
+		</div>
+
+	</div>
+	
+	<div id="footer">
+		<p>Powerd by <a href="http://wordpress.org">Wordpress</a>. Designed by <a href="http://yuguo.us">yuguo</a> 2009</p>
+	</div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+  $(".image-list img").wrap("<div class='image'><\/div>").before("<span class='image-top'><\/span><span class='image-bottom'><\/span>");
+//]]>
+
+});
+</script>
+</body>
+</html>
